@@ -1,0 +1,1361 @@
+body{
+    background-image: linear-gradient(to left,grey,white,grey,white);
+}
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* HEADER */
+
+.imagenLogodiv{
+    transition: all 0.8s ease;
+}
+
+.imagenLogo:hover{
+    transition: all 0.8s ease;
+    transform: rotate(-360deg);
+}
+
+.navBarprincipal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkList{
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    list-style: none;
+    
+}
+
+.linkList li a{
+    margin-right: 25px;
+    text-decoration: none;
+    color: saddlebrown;
+    transition: all 0.2s;
+}
+
+.linkList li a:hover{
+    background-color: burlywood;
+    font-size: 35px;
+}
+
+.navbar-nav a{
+    transition: all 0.2s;
+    color: saddlebrown;
+}
+
+.navbar-nav a:hover{
+    background-color: burlywood;
+    font-size: 25px;
+}
+
+/* FOOTER */ 
+
+@keyframes agrandado {
+    0%{
+        font-size: 16px;   
+    }
+    50%{
+        font-size: 20px;
+    }
+    100%{
+        font-size: 20px;
+    }
+    
+}
+
+.linkBeamfooter:hover{
+    animation-name: agrandado;
+    animation-iteration-count:unset;
+    animation-timing-function:step-start;
+    animation-duration: 0.5s;
+}
+
+/* TITULO PRINCIPAL INDEX */ 
+
+.tituloPrincipalmain{
+        padding: 40px;      
+}
+
+
+.contenedorMainindex{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    margin-top: 50px;
+}
+
+.imagenPrincipalmain{
+    text-align: center;
+    border: solid black 8px;
+    margin: 20px;
+}
+
+.imagen2Principalmain{
+    text-align: center;
+    border: solid black 8px;
+    margin: 20px;
+}
+
+.descripcionMain{
+    width: 80% ; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 10px black;
+    padding: 40px;
+
+}
+ 
+
+
+
+.contenedorMainespacios{
+    display: grid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 0.25fr 0.75fr 0.25fr 0.25fr 0.75fr 0.25fr 0.25fr 0.25fr 0.75fr ;
+
+}
+
+.tituloConsultorio1{
+    text-decoration: underline;
+    text-align: center;
+    padding: 30px;
+}
+
+.imgConsultorio1-1:hover{
+    transform: scale(1.5,1.5);
+    padding-left: 50px;
+}
+
+.imgConsultorio1-2:hover{
+    transform: scale(1.5,1.5);
+}
+
+.imgConsultorio1-3:hover{
+    transform: scale(1.5,1.5);
+}
+
+.imgConsultorio1-4:hover{
+    transform: scale(1.5,1.5);
+    padding-right: 50px;
+}
+
+.imgConsultorio2-1:hover{
+    transform: scale(1.5,1.5);
+    padding-left: 50px;
+}
+
+.imgConsultorio2-2:hover{
+    transform: scale(1.5,1.5);
+}
+
+.imgConsultorio2-3:hover{
+    transform: scale(1.5,1.5);
+}
+
+.imgConsultorio2-4:hover{
+    transform: scale(1.5,1.5);
+    padding-right: 50px;
+}
+
+.imgConsultorio1-1class{
+    border: solid black;
+    
+}
+
+
+.descripcionConsultorio1{
+    padding: 30px;
+}
+
+.tituloConsultorio2{
+    text-decoration: underline;
+    padding: 30px;
+}
+
+
+
+.descripcionConsultorio2{
+    padding: 30px;
+}
+
+.tituloOficina4{
+    padding: 30px;
+    text-decoration: underline;
+}
+
+
+.descripcionOficina4{
+    padding: 30px;
+}
+
+
+fieldset{
+    padding: 10px 30px 10px 30px;
+}
+
+.imgMapa{
+    text-align: center;
+}
+
+.titulodireccionUbicacion{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.decripcionUbicacion{
+    text-align: center;
+    border: double; 
+    padding: 10px 0px 10px 0px;
+    margin: 30px 400px 10px 400px;
+}
+
+.argentinaDireccion{
+    text-decoration: underline;
+}
+
+.descripcionServicios ul{
+    text-align: center;
+    list-style: none;
+}
+
+.tituloServiciosespeciales{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(186, 127, 44);
+    margin: 50px 0px 50px 0px ;
+}
+
+.imgSilla{
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+.imgMinimarket{
+    text-align: center;
+    margin: 40px 0px 20px 0px;
+}
+.imgImpresora{
+    text-align: center;
+    margin: 40px 0px 20px 0px;
+}
+.imgBici{
+    text-align: center;
+    margin: 40px 0px 20px 0px;
+}
+
+.tituloNuestrosservicios{
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.tituloUbicacion{
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px){
+
+    .navBarprincipal{
+        display: flex;
+    }
+    
+    .linkList{
+        display: flex;
+        text-align: center;
+        font-size: 25px;
+        list-style: none;
+        
+    }
+    
+    .linkList li a{
+        margin-right: 25px;
+        text-decoration: none;
+    }
+
+    .imagenLogodiv{
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .imagenLogo{
+        height: 125px;
+        width: 125px; 
+        text-align: center; 
+    }
+
+
+    .contenedorMainindex{
+        display: grid;
+        margin-top: 30px;
+        grid-template-columns: 100%;
+        grid-template-rows: 320px 150px 250px;
+    }
+
+    .imagenPrincipalmain{
+        grid-column: 1/3;
+        grid-row: 1/2;
+        text-align: center;
+    }
+
+    .imagen2Principal{
+        width: 350px;
+        height: 300px;
+    }
+
+    .tituloPrincipalmain{
+        font-size: 27px;
+        grid-column: 1/3;
+        grid-row: 2/3;
+        text-align: center;
+    }
+
+    .descripcionMain{
+        grid-column: 1/3;
+        grid-row: 3/4;
+        font-size: 24px;
+        text-align: center;
+        padding: 6px;
+        border: solid 3px black;
+    }
+
+    .footerConteiner{
+        display: flex;
+    }
+
+    .footerImg{
+        display: flex;
+        flex-direction:row ;
+    }
+    .logoFbk{
+        height:40px;
+        width:40px;
+    }
+    .logoIg{
+        height:40px;
+        width:40px;
+    }
+    .logoWh{
+        height:40px;
+        width:40px;
+        }
+
+    .footerBeam{
+        text-align: center;
+        font-size: 20px;
+    }  
+
+    .suscribete{
+        font-size: 20px;
+    }
+
+    .btnSuscribirse{
+        font-size: 20px;
+    }
+
+    .footerConteiner input {
+        width: 80%;
+    }
+
+    .contenedorMainespacios{
+        display: grid;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 0.25fr 0.75fr 0.25fr 0.25fr 0.75fr 0.25fr 0.25fr 0.25fr 0.75fr ;
+    
+    }
+    
+    .tituloConsultorio1{
+        grid-column: 2/4;
+        grid-row: 1/2;
+        font-size: 35px;
+        text-decoration: underline;
+        text-align: center;
+    }
+    
+    .imgConsultorio1-1{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        text-align: center;
+        width:"250"; 
+        height:"250";
+    }
+
+    .imgConsultorio1-1class{
+        text-align: center;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .imgConsultorio1-2{
+        grid-column: 2/3;
+        grid-row: 2/3 ;
+        text-align: center;
+    }
+
+    .imgConsultorio1-2class{
+        text-align: center;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .imgConsultorio1-3{
+        grid-column: 3/4;
+        grid-row: 2/3 ;
+        text-align: center;
+    }
+
+    .imgConsultorio1-3class{
+        text-align: center;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .imgConsultorio1-4{
+        grid-column: 4/5;
+        grid-row: 2/3 ;
+        text-align: center;
+    }
+
+    .imgConsultorio1-4class{
+        text-align: center;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .descripcionConsultorio1{
+        grid-column: 1/5;
+        grid-row: 3/4;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .tituloConsultorio2{
+        grid-column: 2/4;
+        grid-row: 4/5;
+        text-align: center;
+        font-size: 35px;
+        text-decoration: underline;
+    }
+    
+    .imgConsultorio2{
+        grid-column: 1/2;
+        grid-row: 5/6;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .imgConsultorio2class{
+        text-align: center;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .imgConsultorio2-2{
+        grid-column: 2/3;
+        grid-row: 5/6;
+        text-align: center;
+    }
+
+    .imgConsultorio2-2class{
+        text-align: center;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .imgConsultorio2-3{
+        grid-column: 3/4;
+        grid-row: 5/6;
+        text-align: center;
+    }
+
+    .imgConsultorio2-3class{
+        text-align: center;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .imgConsultorio2-4{
+        grid-column: 4/5;
+        grid-row: 5/6;
+        text-align: center;
+    }
+
+    .imgConsultorio2-4class{
+        text-align: center;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .descripcionConsultorio2{
+        grid-column: 1/5;
+        grid-row: 6/7;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .tituloOficina4{
+        grid-column: 2/4;
+        grid-row: 7/8;
+        text-align: center;
+        font-size: 35px;
+        text-decoration: underline;
+    }
+    
+    .imgOficina4{
+        grid-column: 1/5;
+        grid-row: 8/9;
+        text-align: center;
+    }
+    
+    .descripcionOficina4{
+        grid-column: 1/5;
+        grid-row: 9/10;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 820px){
+
+    .navBarprincipal{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .imagenLogodiv{
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .imagenLogo{
+        height: 125px;
+        width: 125px; 
+        text-align: center; 
+    }
+
+    .linkList li a{
+        display: flex;
+        margin-right: 50px;
+        text-align: center;
+    }
+
+    .linkList{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .contenedorMainindex{
+        display: grid;
+        margin-top: 30px;
+        grid-template-columns: 100%;
+        grid-template-rows: 320px 150px 250px;
+    }
+
+    .imagenPrincipalmain{
+        grid-column: 1/3;
+        grid-row: 1/2;
+        text-align: center;
+    }
+
+    .imagen2Principal{
+        width: 350px;
+        height: 300px;
+    }
+
+    .tituloPrincipalmain{
+        font-size: 27px;
+        grid-column: 1/3;
+        grid-row: 2/3;
+        text-align: center;
+    }
+
+    .descripcionMain{
+        grid-column: 1/3;
+        grid-row: 3/4;
+        font-size: 24px;
+        text-align: center;
+        padding: 6px;
+        border: solid 3px black;
+    }
+
+    .footerConteiner{
+        display: flex;
+    }
+
+    .footerImg{
+        display: flex;
+        flex-direction:row ;
+    }
+    .logoFbk{
+        height:40px;
+        width:40px;
+    }
+    .logoIg{
+        height:40px;
+        width:40px;
+    }
+    .logoWh{
+        height:40px;
+        width:40px;
+        }
+
+    .footerBeam{
+        text-align: center;
+        font-size: 20px;
+    }  
+
+    .suscribete{
+        font-size: 20px;
+    }
+
+    .btnSuscribirse{
+        font-size: 20px;
+    }
+
+    .footerConteiner input {
+        width: 100%;
+    }
+
+    .contenedorMainespacios{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 0.50fr 1.5fr 1.5fr 0.50fr 0.50fr 1.5fr 1.5fr 0.50fr 0.50fr 1.5fr 0.50fr;
+        margin-top: 0px;
+    }
+
+    .tituloConsultorio1{
+        grid-column: 1/3;
+        grid-row: 1/2;
+        text-align: center;
+        font-size: 40px;
+        text-decoration: underline;
+    }
+    
+    .imgConsultorio1-1{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        text-align: center;
+    }
+
+    .imgConsultorio1-1class{
+        text-align: center;
+        width: 300px;
+        height: 300px;
+        border: solid black;
+    }
+
+    .imgConsultorio1-2{
+        grid-column: 2/3;
+        grid-row: 2/3 ;
+        text-align: center;
+    }
+
+    .imgConsultorio1-2class{
+        text-align: center;
+        width: 300px;
+        height: 300px;
+        border: solid black;
+
+    }
+    .imgConsultorio1-3{
+        grid-column: 1/2;
+        grid-row: 3/4 ;
+        text-align: center;
+    }
+
+    .imgConsultorio1-3class{
+        text-align: center;
+        width: 300px;
+        height: 300px;
+        border: solid black;
+
+    }
+
+    .imgConsultorio1-4{
+        grid-column: 2/3;
+        grid-row: 3/4 ;
+        text-align: center;
+    }
+
+    .imgConsultorio1-4class{
+        text-align: center;
+        width: 300px;
+        height: 300px;
+        border: solid black;
+
+    }
+
+    .descripcionConsultorio1{
+        grid-column: 1/3;
+        grid-row: 4/5;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .tituloConsultorio2{
+        grid-column: 1/3;
+        grid-row: 5/6;
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    
+    .imgConsultorio2{
+        grid-column: 1/2;
+        grid-row: 6/7;
+        text-align: center;
+    }
+
+    .imgConsultorio2class{
+        text-align: center;
+        width: 300px;
+        height: 300px;
+        border: solid black;
+
+    }
+
+    .imgConsultorio2-2{
+        grid-column: 2/3;
+        grid-row: 6/7;
+        text-align: center;
+ 
+    }
+
+    .imgConsultorio2-2class{
+        text-align: center;
+        width: 300px;
+        height: 300px;
+        border: solid black;
+
+    }
+
+    .imgConsultorio2-3{
+        grid-column: 1/2;
+        grid-row: 7/8;
+        text-align: center;
+    }
+
+    .imgConsultorio2-3class{
+        text-align: center;
+        width: 300px;
+        height: 300px;
+        border: solid black;
+
+    }
+
+    .imgConsultorio2-4{
+        grid-column: 2/3;
+        grid-row: 7/8;
+        text-align: center;
+ 
+    }
+
+    .imgConsultorio2-4class{
+        text-align: center;
+        width: 300px;
+        height: 300px;
+        border: solid black;
+
+    }
+
+    .descripcionConsultorio2{
+        grid-column: 1/3;
+        grid-row: 8/9;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .tituloOficina4{
+        grid-column: 1/3;
+        grid-row: 9/10;
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    
+    .imgOficina4{
+        grid-column: 1/3;
+        grid-row: 10/11;
+        text-align: center;
+    }
+
+    .imgOficina4class{
+        width: 553px;
+        height: 300px;
+    }
+    
+    .descripcionOficina4{
+        grid-column: 1/3;
+        grid-row: 11/12;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+
+    .navBarprincipal{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .imagenLogodiv{
+        margin-top: 10px;
+    }
+    
+    .imagenLogo{
+        height: 125px;
+        width: 125px; 
+    }
+
+    .linkList li a{
+        display: flex;
+        margin-right: 20px;
+        text-align: center;
+
+    }
+
+    .linkList{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .contenedorMainindex{
+        display: grid;
+        margin-top: 30px;
+        grid-template-columns: 100%;
+        grid-template-rows: 320px 150px 200px;
+    }
+
+    .imagenPrincipalmain{
+        grid-column: 1/3;
+        grid-row: 1/2;
+        text-align: center;
+    }
+
+    .imagen2Principal{
+        width: 350px;
+        height: 300px;
+    }
+
+    .tituloPrincipalmain{
+        font-size: 24px;
+        grid-column: 1/3;
+        grid-row: 2/3;
+        text-align: center;
+    }
+
+    .descripcionMain{
+        grid-column: 1/3;
+        grid-row: 3/4;
+        font-size: 18px;
+        text-align: center;
+        padding: 6px;
+        border: solid 3px black;
+    }
+
+    .footerConteiner{
+        display: flex;
+    }
+
+    .footerImg{
+        display: flex;
+        flex-direction:row ;
+    }
+    .logoFbk{
+        height:40px;
+        width:40px;
+    }
+    .logoIg{
+        height:40px;
+        width:40px;
+    }
+    .logoWh{
+        height:40px;
+        width:40px;
+        }
+
+    .footerBeam{
+        text-align: center;
+        font-size: 15px;
+    }  
+
+    .suscribete{
+        font-size: 15px;
+    }
+
+    .btnSuscribirse{
+        font-size: 15px;
+    }
+
+    .footerConteiner input {
+        width: 60%;
+    }
+
+    .contenedorMainespacios{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 0.50fr 1.5fr 1.5fr 0.50fr 0.50fr 1.5fr 1.5fr 0.50fr 0.50fr 1.5fr 0.50fr;
+        margin-top: 0px;
+    }
+
+    .tituloConsultorio1{
+        grid-column: 1/3;
+        grid-row: 1/2;
+        text-align: center;
+        font-size: 40px;
+        text-decoration: underline;
+    }
+    
+    .imgConsultorio1-1{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        text-align: center;
+    }
+
+    .imgConsultorio1-1class{
+        text-align: center;
+        width: 220px;
+        height: 220px;
+        border: solid black;
+    }
+
+    .imgConsultorio1-2{
+        grid-column: 2/3;
+        grid-row: 2/3 ;
+        text-align: center;
+    }
+
+    .imgConsultorio1-2class{
+        text-align: center;
+        width: 220px;
+        height: 220px;
+        border: solid black;
+
+    }
+    .imgConsultorio1-3{
+        grid-column: 1/2;
+        grid-row: 3/4 ;
+        text-align: center;
+    }
+
+    .imgConsultorio1-3class{
+        text-align: center;
+        width: 220px;
+        height: 220px;
+        border: solid black;
+
+    }
+
+    .imgConsultorio1-4{
+        grid-column: 2/3;
+        grid-row: 3/4 ;
+        text-align: center;
+    }
+
+    .imgConsultorio1-4class{
+        text-align: center;
+        width: 220px;
+        height: 220px;
+        border: solid black;
+
+    }
+
+    .descripcionConsultorio1{
+        grid-column: 1/3;
+        grid-row: 4/5;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .tituloConsultorio2{
+        grid-column: 1/3;
+        grid-row: 5/6;
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    
+    .imgConsultorio2{
+        grid-column: 1/2;
+        grid-row: 6/7;
+        text-align: center;
+    }
+
+    .imgConsultorio2class{
+        text-align: center;
+        width: 220px;
+        height: 220px;
+        border: solid black;
+
+    }
+
+    .imgConsultorio2-2{
+        grid-column: 2/3;
+        grid-row: 6/7;
+        text-align: center;
+ 
+    }
+
+    .imgConsultorio2-2class{
+        text-align: center;
+        width: 220px;
+        height: 220px;
+        border: solid black;
+
+    }
+
+    .imgConsultorio2-3{
+        grid-column: 1/2;
+        grid-row: 7/8;
+        text-align: center;
+    }
+
+    .imgConsultorio2-3class{
+        text-align: center;
+        width: 220px;
+        height: 220px;
+        border: solid black;
+
+    }
+
+    .imgConsultorio2-4{
+        grid-column: 2/3;
+        grid-row: 7/8;
+        text-align: center;
+ 
+    }
+
+    .imgConsultorio2-4class{
+        text-align: center;
+        width: 220px;
+        height: 220px;
+        border: solid black;
+
+    }
+
+    .descripcionConsultorio2{
+        grid-column: 1/3;
+        grid-row: 8/9;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .tituloOficina4{
+        grid-column: 1/3;
+        grid-row: 9/10;
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    
+    .imgOficina4{
+        grid-column: 1/3;
+        grid-row: 10/11;
+        text-align: center;
+    }
+
+    .imgOficina4class{
+        width: 553px;
+        height: 300px;
+    }
+    
+    .descripcionOficina4{
+        grid-column: 1/3;
+        grid-row: 11/12;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 320px){
+
+    .navBarprincipal{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .imagenLogodiv{
+        text-align: center;
+    }
+    
+    .imagenLogo{
+        height: 75px;
+        width: 75px; 
+        text-align: center; 
+    }
+
+    .linkList li a{
+        display: flex;
+        flex-direction: column;
+        margin-right: 5px;
+    }
+
+    .linkList{
+        font-size: 10px;
+    }
+
+    .contenedorMainindex{
+        display: grid;
+        margin-top: 30px;
+        grid-template-columns: 100%;
+        grid-template-rows: 270px 70px 200px;
+    }
+
+    .imagenPrincipalmain{
+        grid-column: 1/3;
+        grid-row: 1/2;
+        text-align: center;
+    }
+
+    .imagen2Principal{
+        width: 250px;
+        height: 250px;
+    }
+
+    .tituloPrincipalmain{
+        font-size: 11px;
+        grid-column: 1/3;
+        grid-row: 2/3;
+        text-align: center;
+    }
+
+    .descripcionMain{
+        grid-column: 1/3;
+        grid-row: 3/4;
+        font-size: 14px;
+        text-align: center;
+        padding: 6px;
+        border: solid 3px black;
+    }
+
+    .footerConteiner{
+        display: flex;
+    }
+
+    .footerImg{
+        display: flex;
+        flex-direction:row ;
+    }
+
+    .logoFbk{
+        height:20px;
+        width:20px;
+    }
+    .logoIg{
+        height:20px;
+        width:20px;
+    }
+    .logoWh{
+        height:20px;
+        width:20px;
+        }
+
+    .footerBeam{
+        text-align: center;
+        font-size: 10px;
+    }  
+
+    .suscribete{
+        font-size: 10px;
+    }
+
+    .btnSuscribirse{
+        font-size: 10px;
+    }
+
+    .footerConteiner input {
+        width: 50%;
+    }
+
+    .contenedorMainespacios{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 0.25fr 0.50fr 0.50fr 0.25fr 0.25fr 0.50fr 0.50fr 0.25fr 0.25fr 0.50fr 0.25fr;
+        margin-top: 0px;
+    }
+
+    .tituloConsultorio1{
+        grid-column: 1/3;
+        grid-row: 1/2;
+        text-align: center;
+        font-size: 25px;
+        text-decoration: underline;
+    }
+    
+    .imgConsultorio1-1{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        text-align: center;
+    }
+
+    .imgConsultorio1-1class{
+        text-align: center;
+        width: 140px;
+        height: 140px;
+        border: solid black;
+    }
+
+    .imgConsultorio1-2{
+        grid-column: 2/3;
+        grid-row: 2/3 ;
+        text-align: center;
+    }
+
+    .imgConsultorio1-2class{
+        text-align: center;
+        width: 140px;
+        height: 140px;
+        border: solid black;
+
+    }
+    .imgConsultorio1-3{
+        grid-column: 1/2;
+        grid-row: 3/4 ;
+        text-align: center;
+    }
+
+    .imgConsultorio1-3class{
+        text-align: center;
+        width: 140px;
+        height: 140px;
+        border: solid black;
+
+    }
+
+    .imgConsultorio1-4{
+        grid-column: 2/3;
+        grid-row: 3/4 ;
+        text-align: center;
+    }
+
+    .imgConsultorio1-4class{
+        text-align: center;
+        width: 140px;
+        height: 140px;
+        border: solid black;
+
+    }
+
+    .descripcionConsultorio1{
+        grid-column: 1/3;
+        grid-row: 4/5;
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    .tituloConsultorio2{
+        grid-column: 1/3;
+        grid-row: 5/6;
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    
+    .imgConsultorio2{
+        grid-column: 1/2;
+        grid-row: 6/7;
+        text-align: center;
+    }
+
+    .imgConsultorio2class{
+        text-align: center;
+        width: 140px;
+        height: 140px;
+        border: solid black;
+
+    }
+
+    .imgConsultorio2-2{
+        grid-column: 2/3;
+        grid-row: 6/7;
+        text-align: center;
+ 
+    }
+
+    .imgConsultorio2-2class{
+        text-align: center;
+        width: 140px;
+        height: 140px;
+        border: solid black;
+
+    }
+
+    .imgConsultorio2-3{
+        grid-column: 1/2;
+        grid-row: 7/8;
+        text-align: center;
+    }
+
+    .imgConsultorio2-3class{
+        text-align: center;
+        width: 140px;
+        height: 140px;
+        border: solid black;
+
+    }
+
+    .imgConsultorio2-4{
+        grid-column: 2/3;
+        grid-row: 7/8;
+        text-align: center;
+ 
+    }
+
+    .imgConsultorio2-4class{
+        text-align: center;
+        width: 140px;
+        height: 140px;
+        border: solid black;
+
+    }
+
+    .descripcionConsultorio2{
+        grid-column: 1/3;
+        grid-row: 8/9;
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    .tituloOficina4{
+        grid-column: 1/3;
+        grid-row: 9/10;
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    
+    .imgOficina4{
+        grid-column: 1/3;
+        grid-row: 10/11;
+        text-align: center;
+    }
+
+    .imgOficina4class{
+        width: 300px;
+        height: 200px;
+    }
+    
+    .descripcionOficina4{
+        grid-column: 1/3;
+        grid-row: 11/12;
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
