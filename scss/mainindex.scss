@@ -1,0 +1,49 @@
+
+    $colorParaFondo: #15466c;
+    $colorParaFuente: #d4de19;
+    $colorParaBordes: #de1717;
+
+    @mixin bordes($right, $left) {
+        border-right: $right 5px solid;
+        border-left: $left 5px solid;
+    }
+
+    $estilos: (
+        color: violet,
+        bordes: solid 4px black,
+        tFuente: 38px,
+        alineado: center,
+    );
+
+main{
+    background-color: $colorParaFondo;
+    color: $colorParaFuente;
+    border: $colorParaBordes solid 2px;
+
+    .imagenesGeneral{
+        border-top: 20px solid white;
+    }
+
+    .imagenPrincipalmain{
+        @extend .imagenesGeneral;
+        border-bottom: 10px solid black;    
+        @include bordes(green, yellow)    
+    }
+
+    .imagen2Principalmain{
+        @extend .imagenesGeneral;
+        border-bottom: 10px solid red;
+        @include bordes(orange, lightblue)
+    }
+
+    .descripcionMain{
+        background-color: map-get($estilos, $key: color);
+        font-size: map-get($estilos, $key: tFuente);
+    }
+
+}
+
+
+
+
+
