@@ -1,0 +1,39 @@
+header {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+header a img {
+  transition: all 0.8s ease;
+}
+header a img:hover {
+  transition: all 0.8s ease;
+  transform: rotate(-360deg);
+}
+
+main {
+  background-color: #15466c;
+  color: #d4de19;
+  border: #de1717 solid 2px;
+}
+main .imagenesGeneral, main .imagen2Principalmain, main .imagenPrincipalmain {
+  border-top: 20px solid white;
+}
+main .imagenPrincipalmain {
+  border-bottom: 10px solid black;
+  border-right: green 5px solid;
+  border-left: yellow 5px solid;
+}
+main .imagen2Principalmain {
+  border-bottom: 10px solid red;
+  border-right: orange 5px solid;
+  border-left: lightblue 5px solid;
+}
+main .descripcionMain {
+  background-color: violet;
+  font-size: 38px;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */
